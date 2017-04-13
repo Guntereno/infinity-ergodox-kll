@@ -1,0 +1,42 @@
+Name = "MDErgo1";
+Layout = "Default";
+Base = "Blank";
+Version = "0.1";
+Author = "Pete Gunter";
+KLL = "0.3c";
+Date = "2015-09-12";
+Generator = "KIICONF 0.2";
+
+# LH Right Column
+U"FUNCTION1" : U0x64; # ISO Slash
+U"FUNCTION2" : U"Function1";
+
+# LH Thumb
+U"LCTRL" : U"BACKTICK";
+U"LALT" : U"HOME"; # Special
+U"HOME" : U"END"; # Special
+U"END" : U"Function3"; # Special
+
+# LH Bottom Row
+U"LGUI" : U"LCTRL";
+U"BACKTICK" : U"LGUI";
+U"FUNCTION3" : U"LALT";
+U"FUNCTION4" : U"LEFT";
+U"FUNCTION5" : U"RIGHT";
+
+# RH Left Column
+U"FUNCTION6" : U"Lock2"; # Num Lock
+U"FUNCTION7" : U"Function1"; # Function
+
+# RH Thumb
+U"RALT" : U"PAUSE"; # Special
+U"RCTRL" : U"PGUP";
+U"PGUP" : U"PGND";
+U"PGDN" : U"Function3";
+
+# RH Bottom Row
+U"LEFT" : U"UP";
+U"DOWN" : U"DOWN";
+U"UP" : U"RALT";
+U"RIGHT" : U"RGUI";
+U"RGUI" : U"RCTRL";
